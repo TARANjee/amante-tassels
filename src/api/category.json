@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Sofa Covers", "description": "Sofa Covers" },
+  { "id": 2, "name": "Tabel Covers", "description": "Table Covers" },
+  { "id": 3, "name": "Desk Covers", "description": "Desk Covers" },
+  { "id": 4, "name": "Accessories", "description": "Accessories" },
+  { "id": 5, "name": "Other", "description": "Other" }
+]
