@@ -1,10 +1,13 @@
 
-import {Navbar} from '@components';
+import {Navbar,Header,Footer} from '@components';
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-white text-black">
+    <main className="min-h-screen bg-gray-100 dark:bg-gray-900">
       <Navbar/>
+      <Header/>
+      <Footer/>
     </main>
   )
 }
