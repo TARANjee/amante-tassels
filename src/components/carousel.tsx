@@ -63,7 +63,7 @@ export default function Carousel({ slides }) {
 
                 <div className="offer"> UP TO 55% OFF</div>
                 <div className="flex justify-center items-center">
-                    <button className=" sm:text-lg mt-2 text-xs sm:text-lg sm:mt-5 bg-[#ffa500] hover:bg-[#926106] text-white font-bold py-2 px-4 rounded ">Explore</button>
+                    <a href="#" className=" sm:text-lg mt-2 text-xs sm:text-lg sm:mt-5 bg-[#ffa500] hover:bg-[#926106] text-white font-bold py-2 px-4 rounded ">Explore</a>
                 </div>
             </div>
 
