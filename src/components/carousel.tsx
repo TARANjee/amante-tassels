@@ -58,14 +58,7 @@ export default function Carousel({ slides }) {
                     );
                 })}
             </div>
-            <div className="bg-[#0000008d] p-5 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white">
-                <h1 className="banner-title">NEW YEAR <div className="sale">Sale</div></h1>
 
-                <div className="offer"> UP TO 55% OFF</div>
-                <div className="flex justify-center items-center">
-                    <a href="#" className=" sm:text-lg mt-2 text-xs sm:text-lg sm:mt-5 bg-[#ffa500] hover:bg-[#926106] text-white font-bold py-2 px-4 rounded ">Explore</a>
-                </div>
-            </div>
 
         </div >
     );
