@@ -5,35 +5,34 @@ import { MdFavoriteBorder } from "react-icons/md";
 export const Product = () => {
     const datas = [
         {
-            title: "title 1",
+            title: "Product Title",
             id: 1,
-            image: 'https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg',
+            image: 'https://nirmiteefurniture.com/wp-content/uploads/2023/01/Untitled-Session1252-copy.jpg',
             old_price: "66.20",
             new_price: "56.20",
             rating: 3.5,
         },
         {
-            title: "title 2",
+            title: "Product Title",
             id: 1,
-            image: 'https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg',
+            image: 'https://casadesigngroup.com/cdn/shop/products/Sancal-Producto-Sofa-Deep-14_1200x.jpg?v=1672951103',
             old_price: "46.20",
             new_price: "36.20",
 
             rating: 3.5,
         },
         {
-            title: "title 3",
+            title: "Product Title",
             id: 1,
-            image: 'https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg',
-
+            image: 'https://d2dwxeidp9b9gl.cloudfront.net/images/products/1689403979622001.jpg',
             old_price: "76.20",
             new_price: "66.20",
-            rating: 3.5,
+            rating: 3.4,
         },
         {
-            title: "title 4",
+            title: "Product Title",
             id: 1,
-            image: 'https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg',
+            image: 'https://www.jiomart.com/images/product/original/rv5trcl5ay/tony-stark-spandex-polyester-fabric-super-stretchable-flexible-non-slip-big-elasticity-perfect-size-sofa-cover-slipcover-90-145-cm-grey-leaves-one-seater-1-piece-cushion-cover-included-product-images-orv5trcl5ay-p603062352-0-202307130241.jpg?im=Resize=(1000,1000)',
             old_price: "66.20",
             new_price: "57.20",
 
