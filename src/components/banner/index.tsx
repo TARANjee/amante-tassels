@@ -15,7 +15,7 @@ export const Banner = () => {
     return (
         <main>
 
-            <div className=" flex justify-center  gap-4 w-[90%] m-auto pt-5">
+            <div className=" flex justify-center gap-10 w-[80%] m-auto pt-5">
                 <div className='w-1/3 gap-4 flex flex-col justify-between items-center '>
 
                     <SubBanner price="45" name="Product Name" img="/static/img/1.jpg" />
@@ -23,7 +23,7 @@ export const Banner = () => {
                     <SubBanner price="55" name="Product Name" img="/static/img/1.jpg" />
 
                 </div>
-                <div className='w-2/3 ' >
+                <div className='w-2/3 rounded-xl shadow-lg  ' >
                     <Carousel slides={slides} />
 
                 </div>
