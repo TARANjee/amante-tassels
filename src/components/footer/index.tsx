@@ -9,28 +9,28 @@ export const Footer = () => {
                 <div>
                     <h4 className="text-xl sm:text-2xl border-b-2 pb-1 border-b-orange-400 w-max">Amante-Tassels</h4>
                     <div className="flex flex-col justify-center pt-2 text-sm sm:text-lg">
-                        <a href="#" className='hover:pl-2 ease-linear'>About Us</a>
-                        <a href="#" className='hover:pl-2 ease-linear'>Our Services</a>
-                        <a href="#" className='hover:pl-2 ease-linear'>Privacy Policy</a>
+                        <a href="#" className='hover:opacity-[80%]'>About Us</a>
+                        <a href="#" className='hover:opacity-[80%]'>Our Services</a>
+                        <a href="#" className='hover:opacity-[80%]'>Privacy Policy</a>
                     </div>
                 </div>
                 <div>
                     <h4 className="text-xl sm:text-2xl border-b-2 pb-1 border-b-orange-400 w-max">Get Help</h4>
                     <div className="flex flex-col justify-center pt-2 text-sm sm:text-lg">
-                        <a href="#" className='hover:pl-2 ease-linear'>FAQ</a>
-                        <a href="#" className='hover:pl-2 ease-linear'>Shipping</a>
-                        <a href="#" className='hover:pl-2 ease-linear'>Returns</a>
-                        <a href="#" className='hover:pl-2 ease-linear'>Order Status</a>
-                        <a href="#" className='hover:pl-2 ease-linear'>Payment Options</a>
+                        <a href="#" className='hover:opacity-[80%]'>FAQ</a>
+                        <a href="#" className='hover:opacity-[80%]'>Shipping</a>
+                        <a href="#" className='hover:opacity-[80%]'>Returns</a>
+                        <a href="#" className='hover:opacity-[80%]'>Order Status</a>
+                        <a href="#" className='hover:opacity-[80%]'>Payment Options</a>
                     </div>
                 </div>
                 <div>
                     <h4 className="text-xl sm:text-2xl border-b-2 pb-1 border-b-orange-400 w-max ">Online Shop</h4>
                     <div className="flex flex-col pt-2 text-sm sm:text-lg">
-                        <a href="#" className='hover:pl-2 ease-linear'>Sofa Covers</a>
-                        <a href="#" className='hover:pl-2 ease-linear'>Table Covers</a>
-                        <a href="#" className='hover:pl-2 ease-linear'>Cushion Covers</a>
-                        <a href="#" className='hover:pl-2 ease-linear'>Others</a>
+                        <a href="#" className='hover:opacity-[80%]'>Sofa Covers</a>
+                        <a href="#" className='hover:opacity-[80%]'>Table Covers</a>
+                        <a href="#" className='hover:opacity-[80%]'>Cushion Covers</a>
+                        <a href="#" className='hover:opacity-[80%]'>Others</a>
                     </div>
                 </div>
                 <div>
