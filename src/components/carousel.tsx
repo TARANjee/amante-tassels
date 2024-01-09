@@ -6,7 +6,7 @@ import {
 } from "react-icons/bs";
 
 
-export default function Carousel({ slides }) {
+export default function Carousel({ slides }: { slides: string[] }) {
     let [current, setCurrent] = useState(0);
 
     let previousSlide = () => {
@@ -29,16 +29,16 @@ export default function Carousel({ slides }) {
                 }}
             >
                 {slides.map((s, i) => {
-                    return <img key={i} src={s} />;
+                    return <img key={i} src={s} alt={`Slide ${i + 1}`} />;
                 })}
             </div>
 
             {/* buttons */}
             <div className="absolute top-0 h-full w-full justify-between items-center flex text-white px-10 text-3xl">
-                <button onClick={previousSlide}>
+                <button onClick={previousSlide} title="Previous Slide">
                     <BsFillArrowLeftCircleFill />
                 </button>
-                <button onClick={nextSlide}>
+                <button onClick={nextSlide} title="Next Slide">
                     <BsFillArrowRightCircleFill />
                 </button>
             </div>

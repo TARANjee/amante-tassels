@@ -2,7 +2,7 @@
 
 import { MdFavoriteBorder } from "react-icons/md";
 import img from '/next.svg';
-export const SubBanner = ({price,name,img}) => {
+export const SubBanner = ({price, name, img}: { price: number, name: string, img: string }) => {
 
     return (
         <div className={`w-full h-full bg-center bg-cover shadow-xl bg-[url('https://nirmiteefurniture.com/wp-content/uploads/2023/01/Untitled-Session1252-copy.jpg')]`}>
