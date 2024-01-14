@@ -15,15 +15,15 @@ export const Banner = () => {
     return (
         <main>
 
-            <div className=" flex justify-center gap-10 w-[80%] m-auto pt-5">
-                <div className='w-1/3 gap-4 flex flex-col justify-between items-center '>
+            <div className=" flex  sm:flex-row flex-col-reverse items-center justify-center gap-10 sm:w-[80%] m-auto pt-5">
+                <div className='w-[60%] sm:w-[50%] gap-4 flex flex-col justify-between items-center '>
 
                     <SubBanner price={45} name="Product Name" img="/static/img/1.jpg" />
 
                     <SubBanner price={55} name="Product Name" img="/static/img/1.jpg" />
 
                 </div>
-                <div className='w-2/3 rounded-xl shadow-lg  ' >
+                <div className=' w-[80%] sm:w-2/3 rounded-xl shadow-lg  ' >
                     <Carousel slides={slides} />
 
                 </div>

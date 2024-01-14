@@ -20,10 +20,10 @@ export default function Carousel({ slides }: { slides: string[] }) {
     };
 
     return (
-        <div className="overflow-hidden relative">
+        <div className="overflow-hidden w-full   relative ">
             {/* images */}
             <div
-                className={`flex transition ease-out duration-40`}
+                className={`flex transition ease-out duration-40  `}
                 style={{
                     transform: `translateX(-${current * 100}%)`,
                 }}
@@ -44,7 +44,7 @@ export default function Carousel({ slides }: { slides: string[] }) {
             </div>
 
             {/* circle buttons */}
-            <div className="absolute bottom-0 py-4 flex justify-center gap-3 w-full">
+            <div className="absolute  bottom-0 py-10 flex justify-center gap-3 w-full">
                 {slides.map((s, i) => {
                     return (
                         <div
