@@ -1,8 +1,7 @@
-"use client"
-import { useState } from "react";
-import { MdFavoriteBorder, MdFavorite } from "react-icons/md";
 
-export const Card = ({ data }) => {
+import { MdFavoriteBorder } from "react-icons/md";
+
+export const Card = ({ data }: { data: any }) => {
 
     return (
         <div className=" max-w-sm rounded overflow-hidden shadow-lg">
@@ -10,7 +9,7 @@ export const Card = ({ data }) => {
 
             <div className="py-2 sm:px-6 sm:py-4">
                 <div className='flex justify-between items-center'>
-                    <div className="font-bold text-xl mb-2">{data.title}</div>
+                    <div className="font-semibold sm:font-bold text-lg sm:text-xl mb-2">{data.title}</div>
                     <div>
                         <MdFavoriteBorder size={25} />
                     </div>
