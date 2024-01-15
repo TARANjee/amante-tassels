@@ -11,7 +11,7 @@ export const Navbar = () => {
                     Amante-Tassels
                 </div>
                 <div className="hidden sm:flex text-lg w-[30%] justify-between">
-                    <Link href="" className="border-b-2 border-transparent hover:border-b-black hover:dark:border-b-white hover:font-medium ">Home</Link>
+                    <Link href="/" className="border-b-2 border-transparent hover:border-b-black hover:dark:border-b-white hover:font-medium ">Home</Link>
                     <Link href="/products" className="border-b-2 border-transparent hover:border-b-black hover:dark:border-b-white  hover:font-medium">Products</Link>
                     <Link href="/" className="border-b-2 border-transparent hover:border-b-black hover:dark:border-b-white  hover:font-medium">About</Link>
                     <Link href="/" className="border-b-2 border-transparent hover:border-b-black  hover:dark:border-b-white  hover:font-medium">Contact</Link>

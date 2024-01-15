@@ -1,7 +1,6 @@
-
 import { Banner } from '@/components/banner';
 import { Product } from '@/components/product';
-import { Navbar, Header, Footer } from '@components';
+import { Navbar, Footer } from '@components';
 
 
 
