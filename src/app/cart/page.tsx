@@ -58,7 +58,7 @@ const Products = () => {
                     </div>
                     <div className='w-1/3   flex flex-col justify-between items-center '>
 
-                        serttrserttrserttrserttrserttrserttrserttrserttrserttrserttr
+                      payment options
                     </div>
 
                 </div>
