@@ -22,7 +22,7 @@ export const Navbar = () => {
                         <span><CgProfile/></span>
                         <span>Login</span>
                     </Link>
-                    <Link href="/login" className="flex items-center sm:text-xl gap-2 p-2 rounded-3xl bg-white dark:text-black  dark:border-gray-700 shadow hover:opacity-80">
+                    <Link href="/cart" className="flex items-center sm:text-xl gap-2 p-2 rounded-3xl bg-white dark:text-black  dark:border-gray-700 shadow hover:opacity-80">
                         <span><MdOutlineShoppingCart/></span>
                         <span>Cart</span>
                     </Link>

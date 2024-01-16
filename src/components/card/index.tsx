@@ -15,7 +15,7 @@ export const Card = ({ data }: { data: any }) => {
                     </div>
                 </div>
                 <p className="text-gray-700 text-base">
-                    product description
+                    {data.desc}
                 </p>
                 <div className="flex justify-between items-center">
                     <p className="mt-1 text-gray-700 font-semibold sm:font-bold">
