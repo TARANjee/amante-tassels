@@ -6,7 +6,7 @@ export const Navbar = () => {
    
     return (
         <>
-            <div className="navbar flex justify-between items-center w-full px-4 sm:px-10 py-8 sm:py-4 " >
+            <div className="navbar flex justify-between items-center w-full px-4 sm:px-10 py-8 sm:py-4 shadow-sm " >
                 <div className="logo text-xl sm:text-2xl font-semibold select-none">
                     Amante-Tassels
                 </div>
