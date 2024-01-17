@@ -56,6 +56,13 @@ const Products = () => {
                             <CartItems key={index} data={data} />
                         ))}
                     </div>
+
+                    <div className='w-1/3   flex flex-col justify-between items-center '>
+
+                      payment options
+                    </div>
+
+
                 </div>
             </div>
             <Footer />
