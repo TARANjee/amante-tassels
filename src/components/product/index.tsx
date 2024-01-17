@@ -1,6 +1,5 @@
 import { Card } from '../card';
 import './styles.css';
-import { MdFavoriteBorder } from "react-icons/md";
 import datas from '../../api/product.json';
 
 export const Product = () => {

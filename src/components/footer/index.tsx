@@ -9,7 +9,7 @@ export const Footer = () => {
                 <div>
                     <h4 className="text-xl sm:text-2xl border-b-2 pb-1 border-b-orange-400 w-max">Amante-Tassels</h4>
                     <div className="flex flex-col justify-center pt-2 text-sm sm:text-lg">
-                        <a href="#" className='hover:opacity-[80%]'>About Us</a>
+                        <a href="/about" className='hover:opacity-[80%]'>About Us</a>
                         <a href="#" className='hover:opacity-[80%]'>Our Services</a>
                         <a href="#" className='hover:opacity-[80%]'>Privacy Policy</a>
                     </div>
@@ -36,10 +36,10 @@ export const Footer = () => {
                 <div>
                     <h4 className="text-xl sm:text-2xl border-b-2 pb-1 border-b-orange-400 w-max">Follow Us</h4>
                     <div className="flex pt-4 gap-6 text-xl sm:text-2xl">
-                        <a href="#" className='hover:opacity-80'><FaFacebook /></a>
-                        <a href="#" className='hover:opacity-80'><FaTwitter /></a>
-                        <a href="#" className='hover:opacity-80'><RiInstagramFill /></a>
-                        <a href="#" className='hover:opacity-80'><IoLogoWhatsapp /></a>
+                        <a href="#" className='hover:opacity-80' title='facebook'><FaFacebook /></a>
+                        <a href="#" className='hover:opacity-80' title='twitter'><FaTwitter /></a>
+                        <a href="#" className='hover:opacity-80' title='instagram'><RiInstagramFill /></a>
+                        <a href="#" className='hover:opacity-80' title='whatsapp'><IoLogoWhatsapp /></a>
                     </div>
                 </div>
             </div>
