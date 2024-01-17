@@ -1,25 +1,7 @@
 import { Navbar, Footer } from "@/components"
 import { CartItems } from "@/components/cartItem"
 import Link from "next/link"
-
-const datas = [
-    {
-        id: 1,
-        title: "TEWENE Anti-Slip Sectional Couch /Sofa Slipcover for Dogs, Cats, Pet, Love Seat Armrest Backrest Cover, Grey, 28'X28' (Sold By Piece/Not All Set), Polyethylene Terephthalate",
-        image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTC-V0FAcjApOa_uqFP8gIDELknsPrknEyn3iqnw9sEoPIGlbylztKiIrE3es8&usqp=CAE",
-        desc: "Anti-Slip Washable Stain Resistant Scratch Resistant Wear Resistant Tear Resistant",
-        items: "2",
-        pricesOfItem: 11.98
-    },
-    {
-        id: 2,
-        title: "Modern Thick Plush Anti- slip Sofa Covers",
-        image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQYEbxC_CYR78J5nrDlHRm742duRKLEMFqgN073ddOdPhf86ooFCV7x4nlKnDs&usqp=CAE",
-        desc: "The product is Modern Thick Plush Anti-slip Sofa Covers. This product will help you protect your sofa from any spills that may come about due to friends, family, or pets",
-        items: "2",
-        pricesOfItem: 4.48
-    }
-]
+import Items from '../../api/cartItems.json';
 const Products = () => {
     return (
         <>
@@ -52,8 +34,8 @@ const Products = () => {
 
                 <div className=" flex  lg:flex-row flex-col items-center justify-center gap-10  m-auto pt-5">
                     <div className=' w-2/3 sm:w-2/3 rounded-xl   ' >
-                        {datas.map((data, index) => (
-                            <CartItems key={index} data={data} />
+                        {Items.map((item, index) => (
+                            <CartItems key={index} data={item} />
                         ))}
                     </div>
                     <div className='w-1/3   flex flex-col justify-between items-center '>
