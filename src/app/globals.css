@@ -25,9 +25,4 @@
 body{ 
   font-family: 'Poppins', sans-serif;
 }
-@media (prefers-color-scheme: dark) {
-  body {
-   color:white;
-   background-color: black;
-  }
-}
+

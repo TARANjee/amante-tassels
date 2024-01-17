@@ -23,7 +23,7 @@ const datas = [
 const Products = () => {
     return (
         <>
-            <Navbar />
+          
             <div className="px-4 sm:px-10 py-8 sm:py-4 ">
                 <nav className="flex" aria-label="Breadcrumb">
                     <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
@@ -50,16 +50,18 @@ const Products = () => {
                     Cart
                 </h1>
 
-                <div className=" flex  lg:flex-row flex-col items-center justify-center gap-10  m-auto pt-5">
+                <div className=" flex  lg:flex-row flex-col items-center justify-center gap-10 m-auto pt-5 dark:text-white">
                     <div className=' w-2/3 sm:w-2/3 rounded-xl   ' >
                         {datas.map((data, index) => (
                             <CartItems key={index} data={data} />
                         ))}
                     </div>
+
                     <div className='w-1/3   flex flex-col justify-between items-center '>
 
                       payment options
                     </div>
+
 
                 </div>
             </div>
