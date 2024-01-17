@@ -5,7 +5,7 @@ import img from '/next.svg';
 export const SubBanner = ({price, name, img}: { price: number, name: string, img: string }) => {
 
     return (
-        <div className={`w-full h-40 sm:h-64 bg-center bg-cover shadow-xl bg-[url('https://nirmiteefurniture.com/wp-content/uploads/2023/01/Untitled-Session1252-copy.jpg')]`}>
+        <div className={`w-full h-40 sm:h-[272px] bg-center bg-cover shadow-xl bg-[url('https://nirmiteefurniture.com/wp-content/uploads/2023/01/Untitled-Session1252-copy.jpg')]`}>
             
             <div className="px-6 h-full py-4 flex flex-col place-content-between">
                 <div className='flex justify-between items-center'>

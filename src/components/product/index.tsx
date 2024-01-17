@@ -1,6 +1,5 @@
 import { Card } from '../card';
 import './styles.css';
-import { MdFavoriteBorder } from "react-icons/md";
 import datas from '../../api/product.json';
 
 export const Product = () => {
@@ -10,7 +9,7 @@ export const Product = () => {
             <div className='mt-10 flex justify-center items-center'>
                 <h1 className='text-2xl sm:text-4xl text-gray-900 dark:text-white'>Featured Products</h1>
             </div>
-            <div className="mt-5 container  mx-auto gap-2 sm:gap-5 ">
+            <div className="w-[100%] mt-5 container px-4  sm:mx-auto gap-2 sm:gap-5 sm:overflow-x-scroll">
                 {datas.map((data, i) => (
                     <Card key={i} data={data} />
                 ))}
