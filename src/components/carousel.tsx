@@ -20,7 +20,7 @@ export default function Carousel({ slides }: { slides: string[] }) {
     };
 
     return (
-        <div className="overflow-hidden relative">
+        <div className="overflow-hidden relative z-[-1]">
             {/* images */}
             <div
                 className={`flex transition ease-out duration-40`}
