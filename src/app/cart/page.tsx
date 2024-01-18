@@ -3,10 +3,12 @@ import { CartItems } from "@/components/cartItem"
 import Link from "next/link"
 import Items from '../../api/cartItems.json';
 import { Checkout } from "@/components/checkout";
+
+
 const Products = () => {
     return (
         <>
-          
+
             <div className="px-4 sm:px-10 py-8 sm:py-4 ">
                 <nav className="flex" aria-label="Breadcrumb">
                     <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
@@ -33,21 +35,45 @@ const Products = () => {
                     Cart
                 </h1>
 
-                <div className=" flex  lg:flex-row flex-col sm:item-start sm:justify-start  gap-10 m-auto pt-5 dark:text-white">
-                    <div className=' sm:w-2/3 sm:w-full rounded-xl flex flex-col items-center justify-center ' >
-                        {Items.map((item, index) => (
-                            <CartItems key={index} data={item} />
-                        ))}
+                {(Items.length > 0) ? (
+                    <div className=" flex  lg:flex-row flex-col sm:item-start sm:justify-start  gap-10 m-auto pt-5 dark:text-white">
+
+                        <div className=' sm:w-2/3 sm:w-full rounded-xl flex flex-col items-center justify-center ' >
+                            {Items.map((item, index) => (
+                                <CartItems key={index} data={item} />
+                            ))}
+                        </div>
+
+                        <div className='sm:w-1/3 rounded-xl flex flex-col    '>
+
+                            <Checkout />
+                        </div>
                     </div>
+                ) : (
+                    <div className="flex flex-col justify-center items-center ">
+                        <div>
+                            <img src={'/static/img/empty.jpg'} alt="" width={500} height={500} />
+                        </div>
+                        <div>
+                            <h1 className="mt-4 text-3xl font-bold leading-tight tracking-tight text-center text-gray-900 md:text-3xl dark:text-white">
+                                Your Cart is <span className="text-orange-400">Empty!</span>
+                            </h1>
+                        </div>
+                        <div>
+                            <p className="text-gray-500 p-4 text-center ">Must add items on the cart before you proceed to check out.</p>
+                        </div>
+                        <Link href="/">
+                            <button className="mt-4 text-white bg-orange-400 hover:bg-orange-500 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-orange-400 dark:hover:bg-orange-500 dark:focus:ring-orange-500">
+                                RETURN TO SHOP
+                            </button>
+                        </Link>
+                        <button className=" sm:m-2 p-2 cursor-pointer text-orange-400 flex justify-center items-center" >
 
-                    <div className='sm:w-1/3 rounded-xl flex flex-col    '>
-
-                      <Checkout />
+                        </button>
                     </div>
+                )}
 
-
-                </div>
-            </div>
+            </div >
             <Footer />
         </>
     )
