@@ -2,6 +2,7 @@ import { Navbar, Footer } from "@/components"
 import { CartItems } from "@/components/cartItem"
 import Link from "next/link"
 import Items from '../../api/cartItems.json';
+import { Checkout } from "@/components/checkout";
 const Products = () => {
     return (
         <>
@@ -32,16 +33,16 @@ const Products = () => {
                     Cart
                 </h1>
 
-                <div className=" flex  lg:flex-row flex-col items-center justify-center gap-10 m-auto pt-5 dark:text-white">
-                    <div className=' w-2/3 sm:w-2/3 rounded-xl   ' >
+                <div className=" flex  lg:flex-row flex-col sm:item-start sm:justify-start  gap-10 m-auto pt-5 dark:text-white">
+                    <div className=' sm:w-2/3 sm:w-full rounded-xl flex flex-col items-center justify-center ' >
                         {Items.map((item, index) => (
                             <CartItems key={index} data={item} />
                         ))}
                     </div>
 
-                    <div className='w-1/3   flex flex-col justify-between items-center '>
+                    <div className='sm:w-1/3 rounded-xl flex flex-col    '>
 
-                      payment options
+                      <Checkout />
                     </div>
 
 
