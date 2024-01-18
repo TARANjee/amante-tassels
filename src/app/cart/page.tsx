@@ -35,7 +35,7 @@ const Products = () => {
                     Cart
                 </h1>
 
-                {(Items.length > 0) ? (
+                {(Items.length < 0) ? (
                     <div className=" flex  lg:flex-row flex-col sm:item-start sm:justify-start  gap-10 m-auto pt-5 dark:text-white">
 
                         <div className=' sm:w-2/3 sm:w-full rounded-xl flex flex-col items-center justify-center ' >

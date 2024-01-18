@@ -4,10 +4,10 @@ import { MdFavoriteBorder } from "react-icons/md";
 export const Card = ({ data }: { data: any }) => {
 
     return (
-        <div className=" max-w-sm rounded overflow-hidden shadow-lg">
+        <div className=" rounded overflow-hidden shadow-lg">
             <img className="object-cover h-48 w-72 sm:w-96" src={data.image} alt="Sunset in the mountains" />
 
-            <div className="py-2 sm:px-6 sm:py-4">
+            <div className="p-4 sm:px-6 sm:py-4">
                 <div className='flex justify-between items-center'>
                     <div className="font-semibold sm:font-bold text-lg sm:text-xl mb-2">{data.title}</div>
                     <div>
