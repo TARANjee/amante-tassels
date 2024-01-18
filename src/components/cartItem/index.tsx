@@ -22,10 +22,6 @@ export const CartItems = ({ data }: { data: any }) => {
                     </p>
                 </div>
 
-
-
-
-
                 <div className=" sm:w-full  flex flex-row justify-center items-center m-2 ">
                     <button className="text-white bg-orange-400 hover:bg-orange-500 focus:ring-4 focus:outline-none focus:ring-orange-300  rounded-lg text-2xl px-2 text-center dark:bg-orange-400 dark:hover:bg-orange-500 dark:focus:ring-orange-500"> -</button>
                     <p className="text-lg m-2 font-semibold">{data.items}</p>
@@ -45,7 +41,6 @@ export const CartItems = ({ data }: { data: any }) => {
                 </div>
                 <button className=" sm:m-2 p-2 cursor-pointer text-orange-400 flex justify-center items-center" title="Delete Item">
                     <RiDeleteBin2Fill size={25} />
-
                 </button>
             </div>
         </div>
